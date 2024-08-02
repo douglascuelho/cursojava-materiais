@@ -1,0 +1,35 @@
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p {
+    color:#c55da1;
+    font-family: Roboto, Arial, sans-serif;
+    /* px (pixel) - Unidade absoluta 
+       em - Unidade relativa no elemento pai do elemento atual 
+       rem - Relativa ao tamanho da fonte raiz (html)
+    */
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: initial;
+    text-decoration: overline;
+
+    /*Layout de Texto */
+    text-align: justify;
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+
+    /*Unidades de Comprimento */
+    /* 1cm = 37.8px = 25.2/64pol */
+    
+
+}
+
+html{
+    font-size: 18px;
+}
+
+div{
+    font-size: 24px;
+}

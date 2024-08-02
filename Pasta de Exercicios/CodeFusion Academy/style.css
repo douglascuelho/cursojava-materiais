@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C03000;
+    padding: 10px 20px;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 15px;
+}
+.nav-links a:hover{
+    color: rgb(240, 240, 231);
+    background-color: #555;
+    scale: 1.2;
+   
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    border-bottom: 2px solid #fff;
+    background-image: linear-gradient(to right, #fd5d2c, #151536);
+    transform: rotate(360deg); 
+}
+.nav-links a:active{
+    color: greenyellow;
+    font-weight: bold;
+    background-color: #444;
+ 
+    transform: scale(1.1);
+    box-shadow: none;
+    border-bottom:none;
+}
+main{
+     background-color: #f87043;
+     margin: 0;
+     color: #fff;
+     padding: 1px;
+
+}
+#home{ text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+
+}
+#sobre{
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+  
+}
+img{
+    max-width: 50%;
+    border-radius: 8px; 
+
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-bottom: 20px; /* Espaçamento na parte inferior */
+    background-color: rgb(252, 185, 138);
+    color: #151536;
+}
+
+.box {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centralizar texto e imagem */
+}
+
+.box img {
+    max-width: 100%; /* Imagem responsiva */
+    margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+}
+#imagens{
+   justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-bottom: 0; /* Espaçamento na parte inferior */
+    background-color: rgb(252, 185, 138);
+    color: #151536;
+}
+footer{
+    background-color: #C03000;
+text-align: center;
+color: aliceblue;
+}

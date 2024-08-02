@@ -1,0 +1,28 @@
+:root {
+    --cor-clara: #fad8c6;
+    --cor-destaque: #fa7373;
+    --cor-media: #fac073;
+    --cor-escura: #19161D;
+    --cor-offwhite: #F2F3EF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+header > nav ul {
+    list-style-type: none;
+}
+
+
+

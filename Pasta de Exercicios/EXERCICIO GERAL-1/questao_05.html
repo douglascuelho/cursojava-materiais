@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Douglas Coelho">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registre-se </title>
+</head>
+<body>
+    <h2>Registre-se agora!</h2>
+    <form action="#">
+        <label for="nome"> Nome </label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required maxlength="60"> <br>
+        <br>
+        <label for="email"> E-mail </label>
+        <input type="email" id="email" name="email" placeholder="email@dominio.com"> <br>
+        <br>
+        <label for="senha"> Senha </label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required minlength="6"> <br>
+        <br>
+        <label for="senha"> Confirmação de Senha </label>
+        <input type="password" id="senha" name="senha" placeholder="Confirme sua senha" required minlength="6"> <br>
+        <br>
+        <label for="genero"> Gênero </label>
+        <input type="radio" name="genero" id="sexo" value="Masculino"> Masculino 
+        <input type="radio" name="genero" id="sexo" value="Feminino"> Feminino 
+        <input type="radio" name="genero" id="sexo" value="Outro"> Outro <br>
+        <br>
+        <label for="interesses" name="interesses" > Interesses </label>
+        <input type="checkbox" name="interesses" value="esportes"> Esportes
+        <input type="checkbox" name="interesses" value="musica"> Música
+        <input type="checkbox" name="interesses" value="leitura"> Leitura <br>
+        <br>
+        País de Residência <select name="pais">
+            <option value="BR"> Brasil </option>
+            <option value="CA"> Canadá </option>
+            <option value="US"> Estados Unidos </option>
+            <option value="FR"> França </option>
+        </select> <br>
+        <br>
+        <button> Enviar </button>
+        </form>
+    </body>
+</html>
